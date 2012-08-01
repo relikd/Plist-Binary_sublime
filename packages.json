@@ -1,0 +1,20 @@
+{
+    "schema_version": "1.2",
+    "packages": [
+        {
+            "name": "Plist Binary",
+            "description": "De/Encode .plist files between XML and binary format",
+            "author": "relikd",
+            "homepage": "https://github.com/relikd/plist-binary_sublime",
+            "last_modified": "2012-07-26 17:23:42",
+            "platforms": {
+                "osx": [
+                    {
+                        "version": "1.0.0",
+                        "url": "https://nodeload.github.com/relikd/plist-binary_sublime/zipball/master"
+                    }
+                ]
+            }
+        }
+    ]
+}
