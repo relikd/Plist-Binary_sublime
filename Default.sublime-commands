@@ -1,0 +1,6 @@
+[
+    {
+        "caption": "Plist Binary: Toggle XML & Binary",
+        "command": "toggle_binary"
+    }
+]
