@@ -2,7 +2,7 @@ import sublime, sublime_plugin
 import os
 
 class ToggleBinaryCommand(sublime_plugin.TextCommand):
-  def run_(self, view, args):
+  def run_(self, view, args=None):
 
     fname = self.view.file_name()
     if os.path.splitext(fname)[1].lower() != ".plist":
