@@ -6,11 +6,11 @@ class ToggleBinaryCommand(sublime_plugin.TextCommand):
 
     fname = self.view.file_name()
     if os.path.splitext(fname)[1].lower() != ".plist":
-      sublime.error_message("%s: Not a *.plist file!" % PACKAGE_NAME)
+      sublime.error_message("Plist Binary: Not a *.plist file!")
       return
 
     if self.view.is_dirty():
-      sublime.error_message("%s: Can't encode an unsaved file!" % PACKAGE_NAME)
+      sublime.error_message("Plist Binary: Can't encode an unsaved file!")
       return
 
     if self.view.substr(sublime.Region(0, 5)) == "<?xml":
